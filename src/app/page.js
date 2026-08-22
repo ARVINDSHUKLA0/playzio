@@ -114,7 +114,7 @@ export default function Home() {
         </section>
 
 
-        {/* <section className='planvisit-warper pt-3 pb-lg-5 pb-2'>
+        <section className='planvisit-warper pt-3 pb-lg-5 pb-2'>
           <div className='row align-items-center'>
             <div className='col-lg-4 col-md-12 col-12 mb-4'>
               <h2 className='pv-title fs-1 fw-bold'>Plan Your Visit</h2>
@@ -176,7 +176,7 @@ export default function Home() {
             </div>
 
           </div>
-        </section> */}
+        </section>
 
         {/* <Footer/> */}
       </main>
