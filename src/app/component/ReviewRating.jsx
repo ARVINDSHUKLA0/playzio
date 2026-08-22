@@ -47,31 +47,30 @@ const reviews = [
 
 const ReviewRating = () => {
   const settings = {
-  mobileFirst: true,
   dots: true,
   infinite: true,
   speed: 600,
-  slidesToShow: 1,
+  slidesToShow: 3,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3500,
-  arrows: false,
+  arrows: true,
 
   responsive: [
     {
-      breakpoint: 768,
+      breakpoint: 992,
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
       },
     },
     {
-      breakpoint: 992,
+      breakpoint: 768,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: true,
+        arrows: false,
       },
     },
   ],
