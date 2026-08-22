@@ -248,3 +248,26 @@
     padding: 17px 25px;
   }
 }
+
+
+.review-section .slick-list {
+  overflow: hidden;
+}
+
+.review-section .slick-slide {
+  height: auto;
+}
+
+.review-section .slick-slide > div {
+  height: 100%;
+}
+
+@media (max-width: 767px) {
+  .review-section .review-slide {
+    padding: 10px 8px;
+  }
+
+  .review-section .review-card {
+    width: 100%;
+  }
+}
