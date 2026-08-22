@@ -249,7 +249,13 @@
   }
 }
 
+.review-slide {
+  padding: 15px;
+}
 
+.review-card {
+  width: 100%;
+}
 .review-section .slick-list {
   overflow: hidden;
 }
