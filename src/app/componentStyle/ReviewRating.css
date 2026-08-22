@@ -277,3 +277,30 @@
     width: 100%;
   }
 }
+
+/* Force correct slidesToShow on real mobile devices (slick JS width-detection fix) */
+@media (max-width: 767px) {
+  .review-section .slick-track {
+    display: flex !important;
+  }
+
+  .review-section .slick-slide {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  .review-section .slick-slide > div {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .review-section .slick-track {
+    display: flex !important;
+  }
+
+  .review-section .slick-slide {
+    width: 50% !important;
+    float: none !important;
+  }
+}

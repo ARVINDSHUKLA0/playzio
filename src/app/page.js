@@ -69,7 +69,7 @@ export default function Home() {
           <div className={styles.AboutSection}>
             <div className="row m-0 py-4 align-items-start">
               <div className={`col-lg-6 col-md-6 col-6 col-12 ${styles.CustomAboutHeight}`}>
-                <img style={{objectPosition : "left"}} className="img-fluid" src="/assets/img/about.png"></img>
+                <img style={{ objectPosition: "left" }} className="img-fluid" src="/assets/img/about.png"></img>
               </div>
               <div className="col-lg-6 col-md-6 col-6 col-12">
                 <h2 className="mb-md-4 fs-1 pt-md-0 pt-3 banner-title ">About Us</h2>
@@ -364,7 +364,7 @@ export default function Home() {
                 <div className="mt-4" >
                   <h4 className="mt-2">Monthly Subscription Offer</h4>
                   <p className="fs-16">Give your little one unlimited fun all month long with Playzio’s Monthly Subscription!  Enjoy special benefits, savings, guest passes, and endless playtime in a safe and joyful environment</p>
-                  <button style={{backgroundColor : "#FE6B1F"}} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#FE6B1F" }} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -376,7 +376,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Co-work at Playzio</h4>
                   <p className="fs-16">Work comfortably while your little ones enjoy a safe and fun play environment at Playzio. With comfortable seating, Wi-Fi, refreshments, and a secure play area, parents can stay productive while kids play, learn, and have</p>
-                  <button style={{backgroundColor : "#FCB805"}} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#FCB805" }} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Yearly Pass </h4>
                   <p className="fs-16">Make every visit more fun with the Playzio Yearly Pass! Enjoy year-round play, special discounts, priority bookings, and exclusive benefits while creating endless happy memories with your little ones</p>
-                  <button style={{backgroundColor : "#D23AA6"}} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#D23AA6" }} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -400,7 +400,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Family Playzio </h4>
                   <p className="fs-16">At Playzio, families can enjoy quality time together with exciting activities, safe play areas, and plenty of happy moments.It’s the perfect place for kids to play, parents to relax, and everyone to create memories together,</p>
-                  <button style={{backgroundColor : "#8FD6B8"}} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#8FD6B8" }} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
