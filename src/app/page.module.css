@@ -1,4 +1,4 @@
- 
+
 
 .heading h2 {
   margin: 0 0 12px;
@@ -12,18 +12,16 @@
 }
  
 .card {
-  min-height: 300px;
-  padding: 36px 38px;
-  background: white;
-  border-radius:32px; 
-  margin: 10px;
+  /* height: 330px !important; */
+  border-radius:32px;  
 }
+ 
+.cardPading{
+  padding: 30px 10px;
+  /* padding: 20px 20px !important; */
+  border-radius: 14px;
 
-/* .icon {
-  height: 75px;
-  display: flex;
-  align-items: center;
-} */
+}
  .whychooseIcon{
     height: 10px ;
     width: 10px;
@@ -39,4 +37,18 @@
     border-radius: 10px;
     object-position: center;
  }
- 
+  
+ .cardEvent{
+    background-color: white !important;
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 21px 7px rgba(128, 128, 128, 0.321);
+ }
+  
+ .PlayCard{
+  background-color: white;
+  padding: 20px;
+  border-radius: 14px;
+  
+ }

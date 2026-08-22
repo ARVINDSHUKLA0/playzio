@@ -1,83 +1,71 @@
 "use client";
 
 import React from "react";
-
-/**
- * ContactUs.jsx
- * Pixel-close recreation of the reference design:
- * cream background, bold rounded blue heading, map on the right.
- *
- * IMPORTANT: Add this font import once in your app/layout.js (or globals.css):
- *
- *   import { Baloo_2 } from "next/font/google";
- *   const baloo = Baloo_2({ subsets: ["latin"], weight: ["600","700","800"] });
- *   // then add `className={baloo.className}` on <body>
- *
- * Or via CSS (globals.css):
- *   @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&display=swap');
- */
+import '../componentStyle/Footer.css'
 
 const CONTACT = {
   title: "Contact Us",
   address: [
-    "Bambino, Showroom B, Elite Transbay,",
-    "Miracle Glory Rd, Balewadi, Pune,",
-    "Maharashtra - 411045",
+    "Shivraj Nagar 2,",
+    "Beside Sportify Club, Opp. Park Street Society,",
+    "Rahatani, Pune, Maharashtra",
   ],
   phone: "+91 73878 30948",
   hours: [
     { days: "Monday to Thursday", time: "11:30 am to 8:30 pm" },
     { days: "Friday to Sunday", time: "11:00 am to 9:00 pm" },
   ],
-  // Replace with your real "Embed a map" src from Google Maps → Share → Embed a map
+
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Bambino+Balewadi+Pune&output=embed",
+    "https://www.google.com/maps?q=Shivraj+Nagar+2+Beside+Sportify+Club+Opp+Park+Street+Society+Rahatani+Pune&output=embed",
 };
 
-export default function footer() {
+export default function Footer() {
   return (
     <footer
-      className="w-full"
-      style={{ backgroundColor: "#f2eec6", fontFamily: "'Baloo 2', sans-serif" }}
+      className="w-100"
+      style={{ backgroundColor: "white", fontFamily: "'Baloo 2', sans-serif" }}
     >
-      <div className="mx-auto max-w-6xl px-8 py-16 md:px-14">
-        <div className="grid grid-cols-1 items-center gap-10 md:grid-cols-[0.85fr_1.15fr] md:gap-16">
-          {/* Left: Contact details */}
-          <div>
+      <div className="container-fluid custom-width py-5"  >
+        <div className="row align-items-center gy-5 gx-md-5">
+      
+          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
             <h2
-              className="mb-8 text-[42px] font-extrabold leading-none"
-              style={{ color: "#2b2f9e" }}
+              className="fw-bold mb-4"
+              style={{ color: "#2b2f9e", fontSize: "42px", lineHeight: 1 }}
             >
               {CONTACT.title}
             </h2>
 
-            <div className="mb-7">
+            <div className="mb-4">
               <h3
-                className="mb-1 text-[17px] font-bold"
-                style={{ color: "#2b2f9e" }}
+                className="fw-bold mb-1"
+                style={{ color: "#2b2f9e", fontSize: "17px" }}
               >
                 Address:
               </h3>
               {CONTACT.address.map((line, i) => (
                 <p
                   key={i}
-                  className="text-[16px] font-semibold leading-snug text-[#1a1a1a]"
+                  className="fw-semibold mb-0"
+                  style={{ fontSize: "16px", lineHeight: 1.3, color: "#1a1a1a" }}
                 >
                   {line}
                 </p>
               ))}
             </div>
 
-            <div className="mb-7">
+            <div className="mb-4">
               <h3
-                className="mb-1 text-[17px] font-bold"
-                style={{ color: "#2b2f9e" }}
+                className="fw-bold mb-1"
+                style={{ color: "#2b2f9e", fontSize: "17px" }}
               >
                 Phone Number:
               </h3>
               <a
                 href={`tel:${CONTACT.phone.replace(/\s+/g, "")}`}
-                className="text-[16px] font-semibold text-[#1a1a1a] hover:underline"
+                className="fw-semibold text-decoration-none"
+                style={{ fontSize: "16px", color: "#1a1a1a" }}
               >
                 {CONTACT.phone}
               </a>
@@ -85,15 +73,16 @@ export default function footer() {
 
             <div>
               <h3
-                className="mb-1 text-[17px] font-bold"
-                style={{ color: "#2b2f9e" }}
+                className="fw-bold mb-1"
+                style={{ color: "#2b2f9e", fontSize: "17px" }}
               >
                 Opening Hours:
               </h3>
               {CONTACT.hours.map((h, i) => (
                 <p
                   key={i}
-                  className="text-[16px] font-semibold leading-snug text-[#1a1a1a]"
+                  className="fw-semibold mb-0"
+                  style={{ fontSize: "16px", lineHeight: 1.3, color: "#1a1a1a" }}
                 >
                   {h.days} - {h.time}
                 </p>
@@ -102,17 +91,22 @@ export default function footer() {
           </div>
 
           {/* Right: Google Map */}
-          <div className="h-[340px] w-full overflow-hidden rounded-lg shadow-lg md:h-[400px]">
-            <iframe
-              src={CONTACT.mapEmbedSrc}
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen={false}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Bambino location map"
-            />
+          <div className="col-lg-6 col-md-6 col-sm-6 col-12">
+            <div
+              className="w-100 overflow-hidden rounded shadow offsest-2"
+              style={{ height: "340px",}}
+            >
+              <iframe
+                src={CONTACT.mapEmbedSrc}
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Bambino location map"
+              />
+            </div>
           </div>
         </div>
       </div>

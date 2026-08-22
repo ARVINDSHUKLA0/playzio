@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@400;500;600&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 body{
-  background-color: #FFF4F1;
+  /* background-color: #FFF4F1; */
+  background-color: #92d5b820;
 }
 :root {
   --navbar-height: 80px;  
 }
+.banner-title {
+  font-family: 'Baloo 2', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.15;
+  color: var(--pz-ink);
+  margin-bottom: 20px;
+}
+
 .list-style-none{
   list-style: none;
 }
@@ -59,6 +71,22 @@ body{
 }
 @media (min-width: 1400px) and (max-width: 3200px) {
   .custom-width{
-    width: 90%;
+    width: 93%;
   }
+}
+ 
+ 
+.visit-section h2,
+.visit-section h3,
+.visit-section h4,
+.visit-section h5 {
+  color: #292433;
+}
+
+.visit-btn {
+  background: #ff6b4a;
+}
+
+.visit-btn:hover {
+  background: #e85a3c;
 }
