@@ -236,3 +236,15 @@
      font-size: 16px;
    }
  }
+
+ .social-icon {
+  transition: 0.3s ease;
+}
+
+.social-icon.instagram{
+  color: #e1306c !important;
+}
+
+.social-icon.facebook{
+  color: #1877f2 !important;
+}

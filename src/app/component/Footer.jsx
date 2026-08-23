@@ -5,21 +5,23 @@ import '../componentStyle/Footer.css'
 
 const CONTACT = {
   title: "Contact Us",
+
   address: [
-    "Shivraj Nagar 2,",
-    "Beside Sportify Club, Opp. Park Street Society,",
-    "Rahatani, Pune, Maharashtra",
+    "Playzio, 2, Shivraj Nagar Rd,",
+    "Near Sportify Club, Kalewadi Phata,",
+    "Rahatani, Maharashtra - 411017",
   ],
+
   phone: "+91 73878 30948",
+
   hours: [
     { days: "Monday to Thursday", time: "11:30 am to 8:30 pm" },
     { days: "Friday to Sunday", time: "11:00 am to 9:00 pm" },
   ],
 
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Shivraj+Nagar+2+Beside+Sportify+Club+Opp+Park+Street+Society+Rahatani+Pune&output=embed",
+    "https://www.google.com/maps?q=Playzio,+2,+Shivraj+Nagar+Rd,+near+Sportify+Club,+Kalewadi+Phata,+Rahatani,+Maharashtra+411017&output=embed",
 };
-
 export default function Footer() {
   return (
     <footer
@@ -28,7 +30,7 @@ export default function Footer() {
     >
       <div className="container-fluid custom-width py-5"  >
         <div className="row align-items-center gy-5 gx-md-5">
-      
+
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
             <h2
               className="fw-bold mb-4"
@@ -94,17 +96,17 @@ export default function Footer() {
           <div className="col-lg-6 col-md-6 col-sm-6 col-12">
             <div
               className="w-100 overflow-hidden rounded shadow offsest-2"
-              style={{ height: "340px",}}
+              style={{ height: "340px", }}
             >
               <iframe
                 src={CONTACT.mapEmbedSrc}
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen={false}
+                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Bambino location map"
+                title="Playzio location"
               />
             </div>
           </div>

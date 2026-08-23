@@ -93,7 +93,7 @@ export default function Home() {
                 </div>
                 <h4 className="mt-3">Birthdays</h4>
                 <p className="fs-16">At Playzio, our workshops are designed to make learning fun, creative, and exciting! Kids can explore their imagination through art & craft, storytelling, music, science experiments, and other hands-on activities. Each workshop encourages children to learn new skills, build confidence, and enjoy meaningful experiences in a fun and safe environment</p>
-                <button className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold" style={{ backgroundColor: "#FCB805" }}>get in touch</button>
+                <button className={`border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold  btnBirthdays`} style={{ backgroundColor: "#FCB805" }}>get in touch</button>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
                 <h4 className="mt-3">Workshops</h4>
                 <p className="fs-16">Playzio Birthdays are all about fun, laughter, and unforgettable memories!Celebrate your little one’s special day with exciting games, colorful decorations, delicious food, and plenty of playtime. From fun-filled activities to a safe and cheerful environment, our friendly team takes care of everything so parents can relax and enjoy the celebration too.</p>
-                <button className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold" style={{ backgroundColor: "#FE6B1F" }}>get in touch</button>
+                <button className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold btn-Workshops" style={{ backgroundColor: "#FE6B1F" }}>get in touch</button>
               </div>
             </div>
             <div className="col-lg-4 col-md-6 col-sm-6 col-12 mb-3">
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
                 <h4 className="mt-3">Memberships</h4>
                 <p className="fs-16">Playzio Memberships make every visit more fun, exciting, and rewarding! Choose a membership that suits your family and enjoy exciting benefits like unlimited play sessions, special discounts, priority event bookings, guest passes, and exclusive member events. With Playzio, families can save more while creating happy memories together in a safe, clean, and joyful environment.</p>
-                <button className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold" style={{ backgroundColor: "#8EB0E6" }}>get in touch</button>
+                <button className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold btn-Memberships" style={{ backgroundColor: "#8EB0E6" }}>get in touch</button>
               </div>
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Home() {
 
                   <a
                     href="#pricing"
-                    className="btn text-white px-4 py-2 rounded-3"
+                    className="btn text-white px-4 py-2 rounded-3 btn-Workshops"
                     style={{ background: "#FE6B1F" }}
                   >
                     Get More Details
@@ -364,7 +364,7 @@ export default function Home() {
                 <div className="mt-4" >
                   <h4 className="mt-2">Monthly Subscription Offer</h4>
                   <p className="fs-16">Give your little one unlimited fun all month long with Playzio’s Monthly Subscription!  Enjoy special benefits, savings, guest passes, and endless playtime in a safe and joyful environment</p>
-                  <button style={{ backgroundColor: "#FE6B1F" }} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#FE6B1F" }} className=" btn-Workshops border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -376,7 +376,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Co-work at Playzio</h4>
                   <p className="fs-16">Work comfortably while your little ones enjoy a safe and fun play environment at Playzio. With comfortable seating, Wi-Fi, refreshments, and a secure play area, parents can stay productive while kids play, learn, and have</p>
-                  <button style={{ backgroundColor: "#FCB805" }} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#FCB805" }} className=" btnBirthdays border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -388,7 +388,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Yearly Pass </h4>
                   <p className="fs-16">Make every visit more fun with the Playzio Yearly Pass! Enjoy year-round play, special discounts, priority bookings, and exclusive benefits while creating endless happy memories with your little ones</p>
-                  <button style={{ backgroundColor: "#D23AA6" }} className="border-0 px-3  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#D23AA6" }} className="border-0 px-3 btn-YearlyPass  text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>
@@ -400,7 +400,7 @@ export default function Home() {
                 <div className="mt-4">
                   <h4 className="mt-2">Family Playzio </h4>
                   <p className="fs-16">At Playzio, families can enjoy quality time together with exciting activities, safe play areas, and plenty of happy moments.It’s the perfect place for kids to play, parents to relax, and everyone to create memories together,</p>
-                  <button style={{ backgroundColor: "#8FD6B8" }} className="border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
+                  <button style={{ backgroundColor: "#8FD6B8" }} className=" btn-Memberships border-0 px-3 text-white py-2 rounded-2 fs-12 text-uppercase fw-bold">get in touch</button>
                 </div>
               </div>
             </div>

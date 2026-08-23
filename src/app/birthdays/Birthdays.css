@@ -1,0 +1,55 @@
+.birthday-section {
+  /* background: #fff8d98c; */
+  background-color: #FEF4F1;
+  overflow: hidden;
+}
+
+.birthday-img {
+  transition: 0.3s ease;
+}
+
+.birthday-left {
+  transform: rotate(-6deg);
+}
+
+.birthday-right {
+  transform: rotate(6deg);
+}
+
+.birthday-img:hover {
+  transform: rotate(0) scale(1.03);
+}
+
+.birthday-section h1 span {
+  color: #ff6b4a;
+}
+
+@media (max-width: 991px) {
+  .birthday-left,
+  .birthday-right {
+    transform: rotate(0);
+  }
+
+  .birthday-img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .birthday-section {
+    text-align: center;
+  }
+
+  .birthday-img {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .birthday-section h1 {
+    font-size: 34px;
+  }
+
+  .birthday-section p {
+    font-size: 15px !important;
+  }
+}

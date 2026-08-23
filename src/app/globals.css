@@ -90,3 +90,42 @@ body{
 .visit-btn:hover {
   background: #e85a3c;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* btn start color */
+
+.btnBirthdays:hover{
+  background-color: #fcb605bc !important;
+}
+.btn-Workshops:hover{
+  background-color: #fe691fb4 !important;
+}
+.btn-Memberships:hover{
+  background-color: #8eb0e69c !important;
+}
+.btn-YearlyPass:hover{
+  background-color: #d23aa79c !important;
+}
+/* btn end color */
