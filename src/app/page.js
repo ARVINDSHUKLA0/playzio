@@ -323,7 +323,7 @@ export default function Home() {
                         <small className="d-block text-secondary">
                           Extra Adult
                         </small>
-                        <strong>₹50</strong>
+                        <strong>₹280</strong>
                       </div>
                     </div>
 
@@ -333,7 +333,7 @@ export default function Home() {
                         <small className="d-block text-secondary">
                           +30 Minutes
                         </small>
-                        <strong>₹50</strong>
+                        <strong>₹280</strong>
                       </div>
                     </div>
 
