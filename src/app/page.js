@@ -233,37 +233,32 @@ export default function Home() {
                     <div className="col-md-6">
                       <div style={{ backgroundColor: "#fcb60585" }} className="p-3 rounded-4 h-100">
 
-                        <h5 className="fw-bold mb-1">
-                          <i className="fa-regular fa-calendar me-2"></i>
-                          Weekdays
-                        </h5>
-
                         <small className="text-secondary">
-                          Mon - Tue - Wed - Thu
+                          All Days
                         </small>
 
                         <hr />
 
                         <div className="d-flex justify-content-between py-2">
                           <span>30 Mins</span>
-                          <strong>₹600</strong>
+                          <strong>₹280</strong>
                         </div>
 
                         <div className="d-flex justify-content-between py-2 border-top">
                           <span>60 Mins</span>
-                          <strong>₹700</strong>
+                          <strong>₹400</strong>
                         </div>
 
                         <div className="d-flex justify-content-between py-2 border-top">
                           <span>90 Mins</span>
-                          <strong>₹850</strong>
+                          <strong>₹600</strong>
                         </div>
 
                       </div>
                     </div>
 
                     {/* Weekends */}
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div className="p-3 rounded-4 bg-primary-subtle h-100">
 
                         <h5 className="fw-bold mb-1">
@@ -293,7 +288,7 @@ export default function Home() {
                         </div>
 
                       </div>
-                    </div>
+                    </div> */}
 
                   </div>
 
@@ -304,7 +299,7 @@ export default function Home() {
                     <div>
                       <strong>Socks are mandatory</strong>
                       <p className="mb-0 small">
-                        Wearing socks is mandatory for both kids and adults.
+                       wearing socks is mandatory for kids
                       </p>
                     </div>
                   </div>
@@ -318,7 +313,7 @@ export default function Home() {
                         <small className="d-block text-secondary">
                           Adult Entry
                         </small>
-                        <strong>₹200</strong>
+                        <strong>₹50</strong>
                       </div>
                     </div>
 
@@ -328,7 +323,7 @@ export default function Home() {
                         <small className="d-block text-secondary">
                           Extra Adult
                         </small>
-                        <strong>₹200</strong>
+                        <strong>₹50</strong>
                       </div>
                     </div>
 
@@ -338,7 +333,7 @@ export default function Home() {
                         <small className="d-block text-secondary">
                           +30 Minutes
                         </small>
-                        <strong>₹200</strong>
+                        <strong>₹50</strong>
                       </div>
                     </div>
 
